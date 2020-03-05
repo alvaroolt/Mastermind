@@ -1,0 +1,47 @@
+main {
+    display: flex;
+    width: 350px;
+    background-color: rgba(182, 182, 182, 0.459);
+    height: 550px;
+    border: 1px solid;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+}
+
+.comprobaciones{
+    align-self: flex-end;
+}
+
+.aComprobar {
+    display: flex;
+}
+
+.aComprobar div {
+    border-top: 1px solid;
+}
+
+.comprobacion {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 50px;
+}
+
+.comprobacion img {
+    width: 20px;
+}
+
+.colores {
+    width: min-content;
+    border-left: 1px solid;
+}
+
+.material-icons.md-40 {
+    margin-top: 60px;
+    font-size: 50px;
+}
